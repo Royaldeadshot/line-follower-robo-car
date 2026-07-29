@@ -18,6 +18,7 @@ A line-following robot built with an ESP32, a 5 channel analog IR sensor, and PI
 The 5 channel sensor reads the line position as an analog value per channel. The ESP32 converts these into a single weighted position (-2000 to +2000), then runs a PID loop to correct motor speed and keep the robot centered on the line.
 
 ## Wiring
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8336bc57-21ed-4d26-b352-cb1f89331a2f" />
 
 | Sensor Pin | ESP32 GPIO |
 |---|---|
